@@ -20,16 +20,14 @@ header {
     font-style: italic;
 }
 
-h2 {
-
-}
-
 .kontakty {
+    font-size: 25px;
+    color: #BDD9D7;
     width: 100%;
     display: flex;
     justify-content: center;
     div {
-        width: 30dvw;
+        width: 55dvw;
         text-align: center;
     }
 }

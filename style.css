@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background:
+            radial-gradient(ellipse at 20% 30%, #a020f055, transparent 40%),
+            radial-gradient(ellipse at 80% 70%, #00eaff44, transparent 40%),
+            linear-gradient(135deg, #08091b, #17102e, #050713);
+    background-attachment: fixed;
+}
+
+header {
+    font-size: 45px;
+    color: #03363D;
+    text-align: center;
+    background-color: #BDD9D7;
+    border-radius: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+h2 {
+
+}

@@ -6,6 +6,8 @@ body {
             radial-gradient(ellipse at 80% 70%, #00eaff44, transparent 40%),
             linear-gradient(135deg, #08091b, #17102e, #050713);
     background-attachment: fixed;
+    color: white;
+    padding: 0;
 }
 
 header {
@@ -20,4 +22,14 @@ header {
 
 h2 {
 
+}
+
+.kontakty {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    div {
+        width: 30dvw;
+        text-align: center;
+    }
 }

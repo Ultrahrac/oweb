@@ -20,6 +20,14 @@ header {
     font-style: italic;
 }
 
+a {
+    text-decoration: none;
+    color: #BDD9D7;
+    font-size: 25px;
+
+
+}
+
 .kontakty {
     font-size: 25px;
     color: #BDD9D7;

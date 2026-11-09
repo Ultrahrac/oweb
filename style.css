@@ -39,3 +39,10 @@ a {
         text-align: center;
     }
 }
+
+.ig {
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    right: 15px;
+}

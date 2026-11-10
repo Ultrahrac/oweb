@@ -10,7 +10,6 @@ body {
     padding: 0;
 }
 
-
 header {
     font-size: 45px;
     color: #03363D;
@@ -41,9 +40,18 @@ a {
     }
 }
 
-.ig {
-    border-radius: 10px;
+img {
+    border-radius: 15px;
+}
+
+
+.fc > img {
     position: relative;
-    top: 15px;
-    right: 15px;
+    top: 18px;
+}
+
+.inng {
+    position: relative;
+    top: 20px;
+
 }

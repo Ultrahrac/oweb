@@ -40,18 +40,20 @@ a {
     }
 }
 
-img {
-    border-radius: 15px;
-}
-
-
 .fc > img {
     position: relative;
     top: 18px;
 }
 
-.inng {
-    position: relative;
-    top: 20px;
-
+.socials-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    img {
+        width: 60px;
+        height: 60px;
+        border-radius: 15px;
+    }
 }

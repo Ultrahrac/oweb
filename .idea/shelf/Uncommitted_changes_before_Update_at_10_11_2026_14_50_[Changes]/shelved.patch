@@ -1,0 +1,269 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Oliver Prosický</title>\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"author\" content=\"Oliver Prosický\">\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n    <header>\r\n        <h1>Oliver Prosický</h1>\r\n    </header>\r\n    <section class=\"kontakty\">\r\n        <div>\r\n            <h2>Můj Kontakt</h2>\r\n            <div class=\"ing\">\r\n                <img src=\"img/Instagram_icon.png\" width=\"50\" height=\"50\">\r\n                <a href=\"https://www.instagram.com/ultra_hrac/\">Instagram</a>\r\n                <div>\r\n                    <img class=\"fc\" src=\"img/Facebook_icon.png\" width=\"50\" height=\"50\">\r\n                    <a href=\"https://www.facebook.com/ultra.hrac/\">Facebook</a>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div>\r\n            <h2>Kontakty</h2>\r\n            <img >\r\n        </div>\r\n    </section>\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 27bda286f50363f6728ebaf95bd5d3f73a1c6723)
++++ b/index.html	(date 1794318593304)
+@@ -13,19 +13,11 @@
+     </header>
+     <section class="kontakty">
+         <div>
+-            <h2>Můj Kontakt</h2>
+-            <div class="ing">
+-                <img src="img/Instagram_icon.png" width="50" height="50">
+-                <a href="https://www.instagram.com/ultra_hrac/">Instagram</a>
+-                <div>
+-                    <img class="fc" src="img/Facebook_icon.png" width="50" height="50">
+-                    <a href="https://www.facebook.com/ultra.hrac/">Facebook</a>
+-                </div>
+-            </div>
++            <h2>Kontakty</h2>
++            <h1> </h1>
+         </div>
+         <div>
+             <h2>Kontakty</h2>
+-            <img >
+         </div>
+     </section>
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"6c4b9e47-90f0-4ea6-8eab-f4c4afc044af\" name=\"Changes\" comment=\"pridani ig link\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/style.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Ultrahrac&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Ultrahrac/oweb.git&quot;,\r\n    &quot;accountId&quot;: &quot;920818db-efe8-4a08-9b1a-fd3e04c04b3c&quot;\r\n  }\r\n}</component>\r\n  <component name=\"McpProjectServerCommands\">\r\n    <commands />\r\n    <urls />\r\n  </component>\r\n  <component name=\"NextEditCompletionFeaturesState\">\r\n    <decayedCancelled>\r\n      <entry key=\"MS100\" value=\"1.0\" />\r\n      <entry key=\"MS500\" value=\"1.0\" />\r\n      <entry key=\"S2\" value=\"1.0000011883525997\" />\r\n      <entry key=\"S5\" value=\"1.0081292359621856\" />\r\n      <entry key=\"S10\" value=\"1.1720983388700157\" />\r\n      <entry key=\"S30\" value=\"2.5817784862418245\" />\r\n      <entry key=\"S60\" value=\"4.490799573557897\" />\r\n      <entry key=\"M2\" value=\"7.418737771895326\" />\r\n      <entry key=\"M5\" value=\"16.218867954556064\" />\r\n      <entry key=\"M10\" value=\"31.173775024620962\" />\r\n      <entry key=\"M15\" value=\"42.43076562867374\" />\r\n      <entry key=\"M30\" value=\"62.05750781045234\" />\r\n      <entry key=\"H1\" value=\"80.45755680113622\" />\r\n      <entry key=\"H2\" value=\"100.03051933456604\" />\r\n      <entry key=\"H4\" value=\"122.6720708799309\" />\r\n      <entry key=\"D1\" value=\"163.8879493908965\" />\r\n      <entry key=\"W1\" value=\"174.98667696130266\" />\r\n    </decayedCancelled>\r\n    <decayedSelected>\r\n      <entry key=\"MS100\" value=\"0.0\" />\r\n      <entry key=\"MS500\" value=\"0.0\" />\r\n      <entry key=\"S2\" value=\"3.623015260515912E-199\" />\r\n      <entry key=\"S5\" value=\"4.203665017242849E-80\" />\r\n      <entry key=\"S10\" value=\"2.051074415023021E-40\" />\r\n      <entry key=\"S30\" value=\"6.608385218977288E-14\" />\r\n      <entry key=\"S60\" value=\"3.7824251062563805E-7\" />\r\n      <entry key=\"M2\" value=\"0.0011137657300821478\" />\r\n      <entry key=\"M5\" value=\"0.14877649850494973\" />\r\n      <entry key=\"M10\" value=\"0.7992516166667462\" />\r\n      <entry key=\"M15\" value=\"1.4317929930281592\" />\r\n      <entry key=\"M30\" value=\"2.6273593305341443\" />\r\n      <entry key=\"H1\" value=\"3.6719424522734023\" />\r\n      <entry key=\"H2\" value=\"4.922938542860386\" />\r\n      <entry key=\"H4\" value=\"6.78553595161282\" />\r\n      <entry key=\"D1\" value=\"10.693941586061255\" />\r\n      <entry key=\"W1\" value=\"11.798235572169146\" />\r\n    </decayedSelected>\r\n    <decayedShown>\r\n      <entry key=\"MS100\" value=\"1.2321766005516518E-11\" />\r\n      <entry key=\"MS500\" value=\"0.006578616825065746\" />\r\n      <entry key=\"S2\" value=\"0.284796839419022\" />\r\n      <entry key=\"S5\" value=\"0.6127211890407703\" />\r\n      <entry key=\"S10\" value=\"0.9454234426831684\" />\r\n      <entry key=\"S30\" value=\"2.489046820911158\" />\r\n      <entry key=\"S60\" value=\"4.433970185176984\" />\r\n      <entry key=\"M2\" value=\"7.378818271810486\" />\r\n      <entry key=\"M5\" value=\"16.323300065006084\" />\r\n      <entry key=\"M10\" value=\"31.91534132660286\" />\r\n      <entry key=\"M15\" value=\"43.80287365388983\" />\r\n      <entry key=\"M30\" value=\"64.63545705696792\" />\r\n      <entry key=\"H1\" value=\"84.09636352887095\" />\r\n      <entry key=\"H2\" value=\"104.932804165303\" />\r\n      <entry key=\"H4\" value=\"129.44481159859166\" />\r\n      <entry key=\"D1\" value=\"174.57895782931476\" />\r\n      <entry key=\"W1\" value=\"186.78446171812925\" />\r\n    </decayedShown>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2,\r\n  &quot;fromUser&quot;: false\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3LSyYc7xrYNKlZVtiEV7dMT2vHJ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,\r\n    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,\r\n    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,\r\n    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,\r\n    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,\r\n    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.11879.105\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"6c4b9e47-90f0-4ea6-8eab-f4c4afc044af\" name=\"Changes\" comment=\"\" />\r\n      <created>1793461813230</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1793461813230</updated>\r\n      <workItem from=\"1793461814110\" duration=\"7719000\" />\r\n      <workItem from=\"1793558838022\" duration=\"386000\" />\r\n      <workItem from=\"1793626113691\" duration=\"4236000\" />\r\n      <workItem from=\"1794077914976\" duration=\"76000\" />\r\n      <workItem from=\"1794235968878\" duration=\"1401000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"start\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1793467627185</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1793467627185</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"start 1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1793479488836</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1793479488836</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"pridani kontaktu\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1793480587694</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1793480587694</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"pridani ig link\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1793632817342</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1793632817342</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"start\" />\r\n    <MESSAGE value=\"start 1\" />\r\n    <MESSAGE value=\"pridani kontaktu\" />\r\n    <MESSAGE value=\"pridani ig link\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"pridani ig link\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 27bda286f50363f6728ebaf95bd5d3f73a1c6723)
++++ b/.idea/workspace.xml	(date 1794237785967)
+@@ -4,10 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6c4b9e47-90f0-4ea6-8eab-f4c4afc044af" name="Changes" comment="pridani ig link">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    <list default="true" id="6c4b9e47-90f0-4ea6-8eab-f4c4afc044af" name="Changes" comment="hotovi link na ig. zacatek fc problem z vyrovnanim img">
+       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -23,6 +21,7 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_AUTO_UPDATE" value="true" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -43,61 +42,61 @@
+   </component>
+   <component name="NextEditCompletionFeaturesState">
+     <decayedCancelled>
+-      <entry key="MS100" value="1.0" />
+-      <entry key="MS500" value="1.0" />
+-      <entry key="S2" value="1.0000011883525997" />
+-      <entry key="S5" value="1.0081292359621856" />
+-      <entry key="S10" value="1.1720983388700157" />
+-      <entry key="S30" value="2.5817784862418245" />
+-      <entry key="S60" value="4.490799573557897" />
+-      <entry key="M2" value="7.418737771895326" />
+-      <entry key="M5" value="16.218867954556064" />
+-      <entry key="M10" value="31.173775024620962" />
+-      <entry key="M15" value="42.43076562867374" />
+-      <entry key="M30" value="62.05750781045234" />
+-      <entry key="H1" value="80.45755680113622" />
+-      <entry key="H2" value="100.03051933456604" />
+-      <entry key="H4" value="122.6720708799309" />
+-      <entry key="D1" value="163.8879493908965" />
+-      <entry key="W1" value="174.98667696130266" />
++      <entry key="MS100" value="1.0000000000000984" />
++      <entry key="MS500" value="1.003001480601916" />
++      <entry key="S2" value="1.4159814849475363" />
++      <entry key="S5" value="2.6512862972447326" />
++      <entry key="S10" value="4.670072695672946" />
++      <entry key="S30" value="10.793869043471576" />
++      <entry key="S60" value="16.022933498034934" />
++      <entry key="M2" value="22.261791852244453" />
++      <entry key="M5" value="34.17378387530356" />
++      <entry key="M10" value="50.420077246599824" />
++      <entry key="M15" value="63.037265854822216" />
++      <entry key="M30" value="85.97476881093377" />
++      <entry key="H1" value="107.5582673490731" />
++      <entry key="H2" value="129.3769427332277" />
++      <entry key="H4" value="153.4475992829027" />
++      <entry key="D1" value="196.3977061850314" />
++      <entry key="W1" value="207.91205474258228" />
+     </decayedCancelled>
+     <decayedSelected>
+       <entry key="MS100" value="0.0" />
+       <entry key="MS500" value="0.0" />
+-      <entry key="S2" value="3.623015260515912E-199" />
+-      <entry key="S5" value="4.203665017242849E-80" />
+-      <entry key="S10" value="2.051074415023021E-40" />
+-      <entry key="S30" value="6.608385218977288E-14" />
+-      <entry key="S60" value="3.7824251062563805E-7" />
+-      <entry key="M2" value="0.0011137657300821478" />
+-      <entry key="M5" value="0.14877649850494973" />
+-      <entry key="M10" value="0.7992516166667462" />
+-      <entry key="M15" value="1.4317929930281592" />
+-      <entry key="M30" value="2.6273593305341443" />
+-      <entry key="H1" value="3.6719424522734023" />
+-      <entry key="H2" value="4.922938542860386" />
+-      <entry key="H4" value="6.78553595161282" />
+-      <entry key="D1" value="10.693941586061255" />
+-      <entry key="W1" value="11.798235572169146" />
++      <entry key="S2" value="1.774459825568333E-252" />
++      <entry key="S5" value="1.9935471130919252E-101" />
++      <entry key="S10" value="4.4666365857599863E-51" />
++      <entry key="S30" value="1.8454194134787823E-17" />
++      <entry key="S60" value="6.320773157668935E-9" />
++      <entry key="M2" value="1.4397722018279896E-4" />
++      <entry key="M5" value="0.06563482122253922" />
++      <entry key="M10" value="0.5308642872462027" />
++      <entry key="M15" value="1.0899675215317157" />
++      <entry key="M30" value="2.29237749035897" />
++      <entry key="H1" value="3.429882144278904" />
++      <entry key="H2" value="4.757908433180729" />
++      <entry key="H4" value="6.670831773031289" />
++      <entry key="D1" value="10.663598370903067" />
++      <entry key="W1" value="11.793447380370818" />
+     </decayedSelected>
+     <decayedShown>
+-      <entry key="MS100" value="1.2321766005516518E-11" />
+-      <entry key="MS500" value="0.006578616825065746" />
+-      <entry key="S2" value="0.284796839419022" />
+-      <entry key="S5" value="0.6127211890407703" />
+-      <entry key="S10" value="0.9454234426831684" />
+-      <entry key="S30" value="2.489046820911158" />
+-      <entry key="S60" value="4.433970185176984" />
+-      <entry key="M2" value="7.378818271810486" />
+-      <entry key="M5" value="16.323300065006084" />
+-      <entry key="M10" value="31.91534132660286" />
+-      <entry key="M15" value="43.80287365388983" />
+-      <entry key="M30" value="64.63545705696792" />
+-      <entry key="H1" value="84.09636352887095" />
+-      <entry key="H2" value="104.932804165303" />
+-      <entry key="H4" value="129.44481159859166" />
+-      <entry key="D1" value="174.57895782931476" />
+-      <entry key="W1" value="186.78446171812925" />
++      <entry key="MS100" value="0.9726549474123806" />
++      <entry key="MS500" value="0.9974516029777716" />
++      <entry key="S2" value="1.4139412208130218" />
++      <entry key="S5" value="2.6496972930413585" />
++      <entry key="S10" value="4.668586909043263" />
++      <entry key="S30" value="10.788891834314475" />
++      <entry key="S60" value="16.011392338538155" />
++      <entry key="M2" value="22.24440087731974" />
++      <entry key="M5" value="34.211418199058734" />
++      <entry key="M10" value="50.90752352384254" />
++      <entry key="M15" value="64.07816858394865" />
++      <entry key="M30" value="88.22209937897782" />
++      <entry key="H1" value="110.95619764142204" />
++      <entry key="H2" value="134.1143812921137" />
++      <entry key="H4" value="160.10559575065798" />
++      <entry key="D1" value="207.05833670897334" />
++      <entry key="W1" value="219.70504533734504" />
+     </decayedShown>
+   </component>
+   <component name="ProjectColorInfo">{
+@@ -109,33 +108,33 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+-    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "DefaultHtmlFileTemplate": "HTML File",
++    "JavaScript Debug.index.html.executor": "Debug",
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.MCP Project settings loaded": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
++    "codeWithMe.voiceChat.enabledByDefault": "false",
++    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
++    "disable.download.node.interpreter.editor.notification": "true",
++    "git-widget-placeholder": "Merging master",
++    "git.auto.fetch.suggestion.counter": "1",
++    "javascript.preferred.runtime.type.id": "node",
++    "junie.onboarding.icon.badge.shown": "true",
++    "list.type.of.created.stylesheet": "CSS",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.jshint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.jshint": "",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "to.speed.mode.migration.done": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -154,7 +153,7 @@
+       <workItem from="1793558838022" duration="386000" />
+       <workItem from="1793626113691" duration="4236000" />
+       <workItem from="1794077914976" duration="76000" />
+-      <workItem from="1794235968878" duration="1401000" />
++      <workItem from="1794235968878" duration="1817000" />
+     </task>
+     <task id="LOCAL-00001" summary="start">
+       <option name="closed" value="true" />
+@@ -188,7 +187,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1793632817342</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="hotovi link na ig. zacatek fc problem z vyrovnanim img">
++      <option name="closed" value="true" />
++      <created>1794237753874</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1794237753874</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -210,6 +217,7 @@
+     <MESSAGE value="start 1" />
+     <MESSAGE value="pridani kontaktu" />
+     <MESSAGE value="pridani ig link" />
+-    <option name="LAST_COMMIT_MESSAGE" value="pridani ig link" />
++    <MESSAGE value="hotovi link na ig. zacatek fc problem z vyrovnanim img" />
++    <option name="LAST_COMMIT_MESSAGE" value="hotovi link na ig. zacatek fc problem z vyrovnanim img" />
+   </component>
+ </project>
+\ No newline at end of file

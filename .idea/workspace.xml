@@ -32,12 +32,12 @@
     &quot;assignee&quot;: &quot;Ultrahrac&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Ultrahrac/oweb.git&quot;,
-    &quot;accountId&quot;: &quot;920818db-efe8-4a08-9b1a-fd3e04c04b3c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ultrahrac/oweb.git",
+    "accountId": "1e254231-9c34-4b32-8d24-6f2acc7958b4"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -140,7 +140,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.11879.105" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
       </set>
     </attachedChunks>
   </component>
@@ -156,6 +156,7 @@
       <workItem from="1793626113691" duration="4236000" />
       <workItem from="1794077914976" duration="76000" />
       <workItem from="1794235968878" duration="1401000" />
+      <workItem from="1794333846356" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -221,5 +222,6 @@
     <MESSAGE value="pridani ig link" />
     <MESSAGE value="test push" />
     <option name="LAST_COMMIT_MESSAGE" value="test push" />
+    <option name="LAST_CHUNK_COMMIT_MESSAGE" value="wtf" />
   </component>
 </project>
